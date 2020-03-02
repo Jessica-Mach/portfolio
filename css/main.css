@@ -1,0 +1,296 @@
+/******** BASE STYLES *******/
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+body {
+	width: 1400px;
+	margin: 0 auto;
+	background-color: #353535;
+}
+
+h1 {
+	font-family: brandon-grotesque, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 120px;
+	color: #0a4545;
+}
+
+h2 {
+	font-family: brandon-grotesque, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 56px;
+	color: #0a4545;
+}
+
+/* h2 style for portfolio and about sections */
+#portfolio h2, #about h2 {
+	color: #ff3b4a;
+	font-family: lust-didone, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 72px;
+	line-height: 156px;
+	text-align: left;
+	text-indent: 5%;
+	font-stretch: ultra-expanded;
+}
+
+h3 {
+	font-family: chaparral-pro-caption, serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 36px;
+	color: #0a4545;
+}
+
+h4 {
+	font-family: chaparral-pro, serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 24px;
+	color: #0a4545;
+}
+
+p {
+	font-family: chaparral-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: #0a4545;
+}
+
+/******** SECTION HEIGHTS ********/
+#header, #about, #contact{
+	height: 700px;
+}
+
+#portfolio {
+	height: 1400px;
+}
+
+/********* GRID *********/
+.full-width {
+	width: 100%;
+}
+
+.half-width {
+	width: 45%;
+	float: left;
+}
+
+.one-third-width {
+	width: 33.3%;
+	float: left;
+}
+
+/********* HEADER ************/
+#header {
+	background-image: url('../img/glasses-paper-pencil.png');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin-bottom: 0px;
+}
+
+#nav-menu {
+	margin-left: 58%;
+	height: 100px;
+}
+
+#header li, #header li a{
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #f7fbfb;
+}
+
+#header h2 {
+	font-size: 64px;
+}
+
+#header h3 {
+	font-size: 36px;
+}
+
+#intro-1 {
+	margin-left: 50%;
+	margin-bottom: 0;
+	height: 150px;
+}
+
+#intro-2 {
+	margin-left: 40%;
+	margin-top: 40px;
+	height: 100px;
+}
+
+#intro-3 {
+	height: 100px;
+	width: 25%;
+	margin-left: 46%;
+	margin-top: 10px;
+}
+
+/******** PORTFOLIO *********/
+#portfolio {
+	background-color: #f7fbfb;
+	margin-top: 0px;
+}
+#folio-title, #about-title {
+	height: 125px;
+	padding-top: 50px;
+}
+
+.line {
+	height: 20px;
+	background-color: #0a4545;
+	margin-bottom: 40px;
+}
+
+.proj-img-ht {
+	height: 375px;
+}
+
+.proj-txt-ht {
+	height: 375px;
+}
+
+#portfolio img {
+	border-style: solid;
+	border-color: #0a4545;
+	border-width: 10px;
+}
+
+#proj-1-img {
+	padding-left: 5%;
+}
+
+#proj-1-txt {
+	padding-left: 5%;
+}
+
+#proj-2-img {
+	padding-left: 5%;
+}
+
+#proj-2-txt {
+	padding-left: 5%;
+}
+
+#proj-3-img {
+	padding-left: 5%;
+}
+
+#proj-3-txt {
+	padding-left: 5%;
+}
+
+#portfolio h3 {
+	line-height: 48px;
+	padding-bottom: 20px;
+}
+
+#portfolio h4 {
+	line-height: 36px;
+	padding-bottom: 10px;
+}
+
+#portfolio ul {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#portfolio li{
+	font-family: chaparral-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: #0a4545;
+	list-style-type: square;
+	padding-bottom: 5px;
+}
+
+
+/********* ABOUT ************/
+#about {
+	background-color: #dff5f8;
+}
+
+#about img {
+	padding-top: 5%;
+	padding-left: 40%;
+}
+
+#about p{
+	padding-top: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+/********** CONTACT **********/
+#contact h2, #contact h3, #contact h4, #contact p {
+	color: #f7fbfb;
+}
+
+#contact h2 {
+	font-size: 64px;
+}
+
+#contact h3 {
+	padding-bottom: 10px;
+}
+
+#contact {
+	background-image: url('../img/girl-head.png');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#contact-title {
+	padding-top: 100px;
+	padding-left: 20%;
+}
+
+#contact-hire {
+	float: left;
+	padding-top: 7.5%;
+	padding-left: 10%;
+}
+
+#contact-meet {
+	float: left;
+	padding-top: 7.5%;
+	padding-left: 15%;
+}
+
+#follow {
+	padding-left: 25%;
+	padding-top: 60px;
+	clear: both;
+}
+
+#follow-icons {
+	padding-left: 17%;
+	padding-top: 20px;
+}
+
+#contact li {
+	float: left;
+	list-style-type: none;
+	padding-left: 5%;
+}
+
+
